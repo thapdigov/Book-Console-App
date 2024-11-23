@@ -1,12 +1,15 @@
 package az.turing.entity;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Objects;
 
-public class Flight {
-    private Integer flightId;
-    private String flightStartFrom;
+public class Flight implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+    private Long flightId;
+    private final String flightStartFrom = "Kiyev";
     private String flightFromTo;
     private LocalDateTime localDateTime;
     private Integer flightTotalSeats;
@@ -15,41 +18,29 @@ public class Flight {
     public Flight() {
     }
 
-    public Flight(Integer flightId) {
+    public Flight(Long flightId) {
         this.flightId = flightId;
     }
 
-    public Flight(Integer flightId, String flightStartFrom, String flightFromTo, String localDateTime, Integer flightTotalSeats, Integer flightAvailableSeats) {
+    public Flight(Long flightId, String flightFromTo, String localDateTime, Integer flightTotalSeats, Integer flightAvailableSeats) {
         this.flightId = flightId;
-        this.flightStartFrom = flightStartFrom;
         this.flightFromTo = flightFromTo;
         this.localDateTime = LocalDateTime.parse(localDateTime, DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
         this.flightTotalSeats = flightTotalSeats;
         this.flightAvailableSeats = flightAvailableSeats;
     }
 
-    public Flight(Integer flightId, String flightStartFrom, String flightFromTo, Integer flightTotalSeats, Integer flightAvailableSeats) {
-        this.flightId = flightId;
-        this.flightStartFrom = flightStartFrom;
-        this.flightFromTo = flightFromTo;
-        this.flightTotalSeats = flightTotalSeats;
-        this.flightAvailableSeats = flightAvailableSeats;
-    }
 
-    public Integer getFlightId() {
+    public Long getFlightId() {
         return flightId;
     }
 
-    public void setFlightId(Integer flightId) {
+    public void setFlightId(Long flightId) {
         this.flightId = flightId;
     }
 
     public String getFlightStartFrom() {
         return flightStartFrom;
-    }
-
-    public void setFlightStartFrom(String flightStartFrom) {
-        this.flightStartFrom = flightStartFrom;
     }
 
     public String getFlightFromTo() {
@@ -99,13 +90,8 @@ public class Flight {
 
     @Override
     public String toString() {
-        return "Flight{" +
-                "flightId=" + flightId +
-                ", flightStartFrom='" + flightStartFrom + '\'' +
-                ", flightFromTo='" + flightFromTo + '\'' +
-                ", localDateTime=" + localDateTime +
-                ", flightTotalSeats=" + flightTotalSeats +
-                ", flightAvailableSeats=" + flightAvailableSeats +
-                '}';
+        return "flightId: " + flightId +
+                " ,flightStartFrom: " + flightStartFrom + " ,flightFromTo: " + flightFromTo + " ,localDateTime: " + localDateTime + ", flightTotalSeats: " + flightTotalSeats +
+                " ,flightAvailableSeats: " + flightAvailableSeats;
     }
 }

@@ -6,9 +6,9 @@ import java.sql.SQLException;
 
 public class ConnectionHelper {
     public Connection getConnection() throws SQLException {
-        String url = "jdbc:postgresql://localhost:5432/BookConsoleApp";
-        String username = "StackStorm";
-        String password = "book1234";
+        String url = System.getenv("Postgres_Url");
+        String username = System.getenv("Postgres_User");
+        String password = System.getenv("Password");
         return DriverManager.getConnection(url, username, password);
     }
 }
