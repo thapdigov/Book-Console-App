@@ -1,40 +1,41 @@
 package az.turing.mapper;
 
 import az.turing.entity.Flight;
-import az.turing.model.request.FlightRequestDto;
+import az.turing.model.request.FlightDto;
 import az.turing.model.response.FlightResponse;
 
-public class FlightMapper implements EntityMapper<Flight, FlightRequestDto> {
+public class FlightMapper implements EntityMapper<Flight, FlightDto> {
     @Override
-    public Flight toEnt(FlightRequestDto flightRequestDto) {
+    public Flight toEnt(FlightDto flightDto) {
         Flight flight = new Flight();
-        flight.setFlightId(flightRequestDto.getFlightId());
-        flight.setFlightStartFrom(flightRequestDto.getFlightStartFrom());
-        flight.setFlightFromTo(flightRequestDto.getFlightFromTo());
-        flight.setFlightTotalSeats(flightRequestDto.getFlightTotalSeats());
-        flight.setFlightAvailableSeats(flightRequestDto.getFlightAvailableSeats());
+        flight.setFlightId(flightDto.getFlightId());
+        flight.setFlightFromTo(flightDto.getFlightFromTo());
+        flight.setLocalDateTime(flightDto.getLocalDateTime());
+        flight.setFlightTotalSeats(flightDto.getFlightTotalSeats());
+        flight.setFlightAvailableSeats(flightDto.getFlightAvailableSeats());
         return flight;
     }
 
     @Override
-    public FlightRequestDto toDto(Flight flight) {
-        FlightRequestDto flightRequestDto = new FlightRequestDto();
-        flightRequestDto.setFlightId(flight.getFlightId());
-        flightRequestDto.setFlightStartFrom(flight.getFlightStartFrom());
-        flightRequestDto.setFlightFromTo(flight.getFlightFromTo());
-        flightRequestDto.setFlightTotalSeats(flight.getFlightTotalSeats());
-        flightRequestDto.setFlightAvailableSeats(flight.getFlightAvailableSeats());
-        return flightRequestDto;
+    public FlightDto toDto(Flight flight) {
+        FlightDto flightDto = new FlightDto();
+        flightDto.setFlightStartFrom(flight.getFlightStartFrom());
+        flightDto.setFlightFromTo(flight.getFlightFromTo());
+        flightDto.setLocalDateTime(flight.getLocalDateTime());
+        flightDto.setFlightTotalSeats(flight.getFlightTotalSeats());
+        flightDto.setFlightAvailableSeats(flight.getFlightAvailableSeats());
+        return flightDto;
     }
 
+    @Override
     public FlightResponse toResponse(Flight flight) {
         FlightResponse flightResponse = new FlightResponse();
-        flightResponse.setFlightId(flight.getFlightId());
         flightResponse.setFlightStartFrom(flight.getFlightStartFrom());
         flightResponse.setFlightFromTo(flight.getFlightFromTo());
         flightResponse.setLocalDateTime(flight.getLocalDateTime());
-        flightResponse.setFlightTotalSeats(flight.getFlightTotalSeats());
         flightResponse.setFlightAvailableSeats(flight.getFlightAvailableSeats());
         return flightResponse;
     }
+
+
 }

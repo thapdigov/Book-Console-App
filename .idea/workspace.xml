@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="a3285ac3-5bc4-4a4d-8e87-27adaf644d0a" name="Changes" comment="" />
+=======
+    <list default="true" id="a3285ac3-5bc4-4a4d-8e87-27adaf644d0a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/az/turing/BookConsoleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/az/turing/BookConsoleApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/az/turing/menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/az/turing/menu/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/az/turing/BookConsoleApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/az/turing/BookConsoleApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/az/turing/menu/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/az/turing/menu/Menu.class" afterDir="false" />
+    </list>
+>>>>>>> 40309ae6ed285ee91606d2c48ea973b800730126
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +45,14 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+<<<<<<< HEAD
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+=======
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+>>>>>>> 40309ae6ed285ee91606d2c48ea973b800730126
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
@@ -48,13 +65,16 @@
       <recent name="C:\Users\Behruz Tapdiqov\Documents\java21\BookConsoleApp\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="az.turing.exception" />
+      <recent name="az.turing.domain.dao.impl.file" />
+      <recent name="az.turing.domain.dao.inter" />
       <recent name="az.turing.util" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="BookConsoleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="az.turing.BookConsoleApp" />
-      <module name="BookConsoleApp" />
+  <component name="RunManager" selected="Application.Task1">
+    <configuration name="ArraysWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="az.turing.ArraysWork" />
+      <module name="book-console-app" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="az.turing.*" />
@@ -65,9 +85,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BookConsoleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="Postgres_Url" value="jdbc:postgresql://localhost:5432/BookConsoleApp" />
+        <env name="Postgres_User" value="StackStorm" />
+        <env name="Password" value="book1234" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="az.turing.BookConsoleApp" />
+      <module name="book-console-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="az.turing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="az.turing.util.Task1" />
+      <module name="book-console-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="az.turing.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassengerTest.testCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book-console-app" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PassengerTest" />
+      <option name="METHOD_NAME" value="testCreate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task1" />
         <item itemvalue="Application.BookConsoleApp" />
+        <item itemvalue="JUnit.PassengerTest.testCreate" />
+        <item itemvalue="Application.ArraysWork" />
       </list>
     </recent_temporary>
   </component>
@@ -79,7 +143,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731635239831</updated>
-      <workItem from="1731635241241" duration="14840000" />
+      <workItem from="1731635241241" duration="15644000" />
+      <workItem from="1731656786033" duration="1871000" />
+      <workItem from="1731665562183" duration="3310000" />
+      <workItem from="1731682987603" duration="986000" />
+      <workItem from="1731727945900" duration="2732000" />
+      <workItem from="1731839021890" duration="61000" />
+      <workItem from="1731839124220" duration="595000" />
+      <workItem from="1731846928936" duration="1968000" />
+      <workItem from="1731874085781" duration="1209000" />
+      <workItem from="1731904882722" duration="10489000" />
+      <workItem from="1731964988067" duration="2416000" />
+      <workItem from="1731968631452" duration="949000" />
+      <workItem from="1732001909863" duration="15376000" />
+      <workItem from="1732040105074" duration="14876000" />
+      <workItem from="1732089757303" duration="2341000" />
+      <workItem from="1732177223719" duration="9797000" />
+      <workItem from="1732188910770" duration="3665000" />
+      <workItem from="1732208904577" duration="4689000" />
+      <workItem from="1732243924832" duration="13154000" />
+      <workItem from="1732331679487" duration="5942000" />
+      <workItem from="1732482565540" duration="1385000" />
+      <workItem from="1732484723516" duration="453000" />
+      <workItem from="1732558286464" duration="7449000" />
+      <workItem from="1732663531926" duration="604000" />
+      <workItem from="1732670213743" duration="15000" />
+      <workItem from="1733326974985" duration="25000" />
     </task>
     <servers />
   </component>
@@ -96,5 +185,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/az/turing/service/impl/FligthServiceImpl.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/az/turing/menu/Menu.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

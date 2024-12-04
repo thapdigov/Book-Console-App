@@ -1,5 +1,6 @@
 package az.turing.controller;
 
+import az.turing.model.request.FlightDto;
 import az.turing.model.response.FlightResponse;
 import az.turing.service.inter.FlightService;
 
@@ -15,5 +16,21 @@ public class FlightController {
 
     public List<FlightResponse> getAll() {
         return flightService.getFlightResponse();
+    }
+
+    public FlightResponse getById(long id) {
+        return flightService.getFlightResponse(id);
+    }
+
+    public FlightResponse create(FlightDto flightDto) {
+        return flightService.create(flightDto);
+    }
+
+    public FlightResponse delete(long id) {
+        return flightService.deleteById(id);
+    }
+
+    public FlightResponse update(FlightDto flightDto) {
+        return flightService.update(flightDto);
     }
 }
