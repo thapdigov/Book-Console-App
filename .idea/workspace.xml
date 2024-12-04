@@ -5,76 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3285ac3-5bc4-4a4d-8e87-27adaf644d0a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/controller/BookFlightController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/controller/BookPassengerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/controller/PassengerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/domain/dao/impl/database/BookPassengerPostgres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/domain/dao/impl/database/BookPostgres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/domain/dao/impl/database/PassengerPostgres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/domain/dao/impl/file/BookFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/domain/dao/impl/file/BookPassengerFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/domain/dao/impl/file/FlightFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/domain/dao/impl/file/PassengerFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/domain/dao/impl/memory/BookFlightInMemory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/domain/dao/impl/memory/BookPassengerInMemory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/domain/dao/impl/memory/FlightInMemory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/domain/dao/impl/memory/PassengerInMemory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/domain/dao/inter/BookFlightDaoInter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/domain/dao/inter/BookPassengerDaoInter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/domain/dao/inter/PassengerDaoInter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/entity/BookFlight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/entity/BookPassenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/exception/AlreadyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/exception/NotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/mapper/BookFlightMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/mapper/BookPassengerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/mapper/PassengerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/model/BookFlightDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/model/BookPassengerDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/model/PassengerDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/service/impl/BookFlightServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/service/impl/BookPassengerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/service/impl/PassengerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/service/inter/BookFlightService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/service/inter/BookPassengerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/service/inter/PassengerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/az/turing/util/FileUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PassengerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/baa31e1c-ad79-4221-8d5f-ab65a2407e1f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/baa31e1c-ad79-4221-8d5f-ab65a2407e1f.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/az/turing/BookConsoleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/az/turing/BookConsoleApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/az/turing/config/ConnectionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/az/turing/config/ConnectionHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/az/turing/controller/FlightController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/az/turing/controller/FlightController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/az/turing/dao/Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/az/turing/domain/dao/Dao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/az/turing/dao/impl/database/FlightDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/az/turing/domain/dao/impl/database/FlightDaoPostgres.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/az/turing/dao/inter/FlightDaoInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/az/turing/domain/dao/inter/FlightDaoInter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/az/turing/entity/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/az/turing/entity/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/az/turing/entity/Flight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/az/turing/entity/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/az/turing/entity/Passenger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/az/turing/mapper/EntityMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/az/turing/mapper/EntityMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/az/turing/mapper/FlightMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/az/turing/mapper/FlightMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/az/turing/menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/az/turing/menu/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/az/turing/model/request/FlightRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/az/turing/model/request/FlightDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/az/turing/model/response/FlightResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/az/turing/model/response/FlightResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/az/turing/service/impl/FligthServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/az/turing/service/impl/FligthServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/az/turing/service/inter/FlightService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/az/turing/service/inter/FlightService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/az/turing/BookConsoleApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/az/turing/BookConsoleApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/az/turing/controller/FlightController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/az/turing/controller/FlightController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/az/turing/dao/Dao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/az/turing/dao/impl/database/FlightDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/az/turing/dao/inter/FlightDaoInter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/az/turing/entity/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/az/turing/entity/Flight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/az/turing/entity/Flight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/az/turing/entity/Passenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/az/turing/entity/Passenger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/az/turing/mapper/EntityMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/az/turing/mapper/EntityMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/az/turing/mapper/FlightMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/az/turing/mapper/FlightMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/az/turing/menu/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/az/turing/menu/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/az/turing/model/request/FlightRequestDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/az/turing/model/response/FlightResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/az/turing/model/response/FlightResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/az/turing/service/impl/FligthServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/az/turing/service/impl/FligthServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/az/turing/service/inter/FlightService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/az/turing/service/inter/FlightService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +63,7 @@
       <recent name="az.turing.util" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BookConsoleApp">
+  <component name="RunManager" selected="Application.Task1">
     <configuration name="ArraysWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="az.turing.ArraysWork" />
       <module name="book-console-app" />
@@ -160,6 +95,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="az.turing.util.Task1" />
+      <module name="book-console-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="az.turing.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PassengerTest.testCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book-console-app" />
       <option name="PACKAGE_NAME" value="" />
@@ -172,6 +120,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task1" />
         <item itemvalue="Application.BookConsoleApp" />
         <item itemvalue="JUnit.PassengerTest.testCreate" />
         <item itemvalue="Application.ArraysWork" />
@@ -205,6 +154,13 @@
       <workItem from="1732188910770" duration="3665000" />
       <workItem from="1732208904577" duration="4689000" />
       <workItem from="1732243924832" duration="13154000" />
+      <workItem from="1732331679487" duration="5942000" />
+      <workItem from="1732482565540" duration="1385000" />
+      <workItem from="1732484723516" duration="453000" />
+      <workItem from="1732558286464" duration="7449000" />
+      <workItem from="1732663531926" duration="604000" />
+      <workItem from="1732670213743" duration="15000" />
+      <workItem from="1733326974985" duration="25000" />
     </task>
     <servers />
   </component>

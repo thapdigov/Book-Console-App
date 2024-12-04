@@ -166,10 +166,10 @@ public class Menu {
                             if (flight != null) {
                                 System.out.println(flight);
                             } else {
-                                System.out.println("There is not flight " + bookPassengerDto.getPassengerId());
+                                System.out.println("There is not any flight " + bookPassengerDto.getPassengerId());
                             }
                         } else {
-                            System.out.println("There is not flight or flight is not active!" + bookPassengerDto.getPassengerId());
+                            System.out.println("There is not any flight or flight is not active!" + bookPassengerDto.getPassengerId());
                         }
 
                     }
@@ -189,7 +189,6 @@ public class Menu {
     public void flightInfo(FlightResponse flight) {
         System.out.println(" \t- " + flight.getFlightStartFrom() + "\t\t\t\t- " + flight.getFlightFromTo() + " \t\t\t- " +
                 flight.getLocalDateTime() + " \t\t- " + " \t\t- " + flight.getFlightAvailableSeats());
-
     }
 
     public void flightInfo1(FlightResponse flight) {
