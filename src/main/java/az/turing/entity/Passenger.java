@@ -1,21 +1,35 @@
 package az.turing.entity;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Passenger {
-    private Integer passengerId;
+public class Passenger implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+    private Long passengerId;
     private String passengerName;
     private String passengerSurname;
 
-    public Passenger(Integer passengerId) {
+    public Passenger(Long passengerId) {
         this.passengerId = passengerId;
     }
 
-    public Integer getPassengerId() {
+    public Passenger(Long passengerId, String passengerName, String passengerSurname) {
+        this.passengerId = passengerId;
+        this.passengerName = passengerName;
+        this.passengerSurname = passengerSurname;
+    }
+
+    public Passenger(String name, String surName) {
+        this.passengerName = name;
+        this.passengerSurname = surName;
+    }
+
+    public Long getPassengerId() {
         return passengerId;
     }
 
-    public void setPassengerId(Integer passengerId) {
+    public void setPassengerId(Long passengerId) {
         this.passengerId = passengerId;
     }
 
@@ -46,5 +60,10 @@ public class Passenger {
     @Override
     public int hashCode() {
         return Objects.hash(passengerId, passengerName, passengerSurname);
+    }
+
+    @Override
+    public String toString() {
+        return "passengerId=" + passengerId + ",name=" + passengerName + ",surname=" + passengerSurname;
     }
 }
